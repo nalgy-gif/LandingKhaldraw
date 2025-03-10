@@ -1,4 +1,128 @@
----
-title: Welcome to my blog
----
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Incubação - Khaldraw</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 90%;
+            max-width: 600px;
+            background: #fff;
+            padding: 20px;
+            margin: 50px auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #ff6600;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #ff6600;
+            color: white;
+            padding: 15px 20px;
+            font-size: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #cc5500;
+        }
+        .benefits {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .benefits li {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #ff6600;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #cc5500;
+        }
+        .logo {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+        .course-image {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .footer a {
+            color: #ff6600;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo-khaldraw.png" alt="Khaldraw Logo" class="logo">
+        <h1>Transforme sua Vida com Nosso Curso de Incubação 🚀</h1>
+        <img src="curso-imagem.jpg" alt="Curso de Incubação" class="course-image">
+        <p>Invista apenas <strong>3.500 Meticais</strong> e receba um <strong>Kit de Autoemprego</strong> no ato da inscrição!</p>
+        <ul class="benefits">
+            <li>✅ Acesso a workshops exclusivos e networking</li>
+            <li>✅ Mentoria especializada</li>
+            <li>✅ Certificado de participação</li>
+            <li>✅ Desafios práticos para validar sua ideia de negócio</li>
+        </ul>
+        <a href="#form" class="cta-button">Garanta sua Vaga Agora!</a>
+        
+        <div class="form-container" id="form">
+            <h2>Inscreva-se Agora</h2>
+            <form action="#" method="post">
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu E-mail" required>
+                <input type="tel" name="telefone" placeholder="Seu WhatsApp" required>
+                <button type="submit">Quero Me Inscrever</button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Contato: <strong>+258 84 123 4567</strong> | Email: <strong>contato@khaldraw.com</strong></p>
+        <p>Siga-nos nas redes sociais:</p>
+        <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
+    </div>
+</body>
+</html>
 
